@@ -1,5 +1,11 @@
 ---
 title: "Nathan Seaway"
+ navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - aboutme.qmd
 format: html
 about:
   template: trestles
