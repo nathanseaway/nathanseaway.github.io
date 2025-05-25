@@ -7,13 +7,18 @@ website:
   title: "nathanseaway.github.io"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: aboutme.qmd
-        text: About Me
-
+    - href: index.qmd
+      text: Home
+    - href: about.qmd
+      text: About
+    - href: aboutme.qmd
+      text: About Me
+    - href: projects.qmd
+      text: Projects
+    - href: surfhike.qmd
+      text: Surfing & Hiking
+    - href: resume.qmd
+      text: Resume 
 format:
   html:
     theme: cosmo
