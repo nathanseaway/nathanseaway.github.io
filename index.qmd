@@ -1,7 +1,6 @@
 ---
 title: "Nathan Seaway"
 format: html
-  theme: morph 
 about:
   template: trestles
   image-shape: round
