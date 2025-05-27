@@ -3,6 +3,7 @@ title: "Nathan Seaway"
 format: html
 about:
   template: trestles
+  image: grad.jpeg
   image-shape: round
   image-width: 17em
   
