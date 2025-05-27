@@ -1,6 +1,7 @@
 ---
 title: "Nathan Seaway"
 format: html
+  theme: morph 
 about:
   template: trestles
   image-shape: round
@@ -12,9 +13,9 @@ about:
     - text: Email
       href: nseaway@ucsb.edu
 ---
-Hello! Welcome to my personal website. My name is Nathan Seaway, and I am a fourth year student at UCSB, majoring in Environmental Studies with a minor in French. This website showcases some of my hobbies, projects, and work experiences. Thank you for visiting!
 
+Hello! Welcome to my personal website. My name is Nathan Seaway, and I am a fourth year student at UCSB, majoring in Environmental Studies with a minor in French. My course work and work experience mostly focus on ecology, restoration, and botany. This website showcases some of my hobbies, projects, and work experiences. Thank you for visiting!
 
 This is a Quarto website.
 
-To learn more about Quarto websites, visit [https://quarto.org/docs/websites](https://quarto.org/docs/websites).
+To learn more about Quarto websites, visit <https://quarto.org/docs/websites>.

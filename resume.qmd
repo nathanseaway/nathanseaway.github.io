@@ -1,5 +1,4 @@
 ---
-title: "resume"
+title: "Resume"
 format: html
 ---
-

@@ -1,5 +1,4 @@
 ---
-title: "surfhike"
+title: "Surfing & Hiking"
 format: html
 ---
-
