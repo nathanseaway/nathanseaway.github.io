@@ -3,3 +3,22 @@ title: "About Me"
 format: html
 ---
 
+## Photo Gallery
+
+::: {style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;"}
+<img src="images/costarica.jpeg" alt="Costa Rica" style="width: 300px; border-radius: 8px;"/> <img src="images/kyak.jpeg" alt="Kayak" style="width: 300px; border-radius: 8px;"/> <img src="images/rock.jpeg" alt="Rock" style="width: 300px; border-radius: 8px;"/> <img src="images/whale.jpeg" alt="Whale" style="width: 300px; border-radius: 8px;"/>
+:::
+
+---
+
+Hi there!
+
+Here are a few photos I've taken from various trips that I think are super cool. The first photo was taken in Puerto Viejo, Costa Rica on a hiking trip, the second paddle boarding in Santa Barbara, the third & fourth rock climbing and whale watching in Alaska.
+
+A bit more about me:
+
+I am a soon to be graduate of the University of California Santa Barbara, with a B.S. in Environmental Studies (as well as a minor in French). During my studies I have focused on course work related to ecology, restoration, and botany. I have a passion for plants as well as conservation, and I have completed various internships related to plant restoration as well as plant phenology.
+
+Going forward, I hope to find a job in conservation biology, restoration ecology, or a related field. After that I hope to go to graduate school for botany or plant ecology.
+
+In my free time, I love to get outside! I enjoy surfing, hiking, swimming, kayaking, backpacking, and biking. Check out the tab on surfing and hiking if you want to learn more.
