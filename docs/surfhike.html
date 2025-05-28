@@ -123,8 +123,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hikes-and-surfs" id="toc-hikes-and-surfs" class="nav-link active" data-scroll-target="#hikes-and-surfs">Hikes and Surfs</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -148,8 +154,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1;
+}
+</style>
+<section id="hikes-and-surfs" class="level2">
+<h2 class="anchored" data-anchor-id="hikes-and-surfs">Hikes and Surfs</h2>
+<div class="image-grid">
+<div class="image-container">
+<p><img src="images/IMG_1097.jpg" alt="Inspiration Point"></p>
+<div class="overlay-text">
+<p>View from Inspiration Point, Santa Barbara</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1099.jpg" alt="Backpacking"></p>
+<div class="overlay-text">
+<p>A friend and I Backpacking near Dick Smith Wilderness, Santa Barbara</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1101.jpg" alt="Pinnacles"></p>
+<div class="overlay-text">
+<p>Me at Pinnacles National Park</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1104.jpg" alt="Stream"></p>
+<div class="overlay-text">
+<p>A stream near Tangerine Falls, Santa Barbara</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1105.jpg" alt="Spider Monkey"></p>
+<div class="overlay-text">
+<p>A Spider Monkey in Cahuita National Park, Costa Rica</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1107.jpg" alt="Seven Falls"></p>
+<div class="overlay-text">
+<p>Seven Falls, Santa Barbara</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1108.jpg" alt="Redwoods"></p>
+<div class="overlay-text">
+<p>Redwoods at Point Reyes, California</p>
+</div>
+</div>
+<div class="image-container">
+<p><img src="images/IMG_1109.jpg" alt="River Crossing"></p>
+<div class="overlay-text">
+<p>Forging the river, Santa Barbara back country</p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

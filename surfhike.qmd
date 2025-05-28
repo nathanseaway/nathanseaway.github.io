@@ -2,3 +2,113 @@
 title: "Surfing & Hiking"
 format: html
 ---
+
+```{=html}
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1;
+}
+</style>
+```
+
+## Hikes and Surfs
+
+::::::::::::::::::: image-grid
+:::: image-container
+<img src="images/IMG_1097.jpg" alt="Inspiration Point"/>
+
+::: overlay-text
+View from Inspiration Point, Santa Barbara
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1099.jpg" alt="Backpacking"/>
+
+::: overlay-text
+A friend and I Backpacking near Dick Smith Wilderness, Santa Barbara
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1101.jpg" alt="Pinnacles"/>
+
+::: overlay-text
+Me at Pinnacles National Park
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1104.jpg" alt="Stream"/>
+
+::: overlay-text
+A stream near Tangerine Falls, Santa Barbara
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1105.jpg" alt="Spider Monkey"/>
+
+::: overlay-text
+A Spider Monkey in Cahuita National Park, Costa Rica
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1107.jpg" alt="Seven Falls"/>
+
+::: overlay-text
+Seven Falls, Santa Barbara
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1108.jpg" alt="Redwoods"/>
+
+::: overlay-text
+Redwoods at Point Reyes, California
+:::
+::::
+
+:::: image-container
+<img src="images/IMG_1109.jpg" alt="River Crossing"/>
+
+::: overlay-text
+Forging the river, Santa Barbara back country
+:::
+::::
+:::::::::::::::::::
