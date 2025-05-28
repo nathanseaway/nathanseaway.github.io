@@ -7,7 +7,7 @@ execute:
   message: false
 ---
 
-My most recent Internship has focused on collecting and analyzing phenology data on plants at the UCSB Lagoon, for the Cheadle Center. My work consists of monitoring eight different plots on the Lagoon Island, and assessing all the flowering plants in those plots on how far along they are in their bloom cycle. I collect data weekly, and have created graphs using R of several of the more common native species found there, to compare how blooming differs by year.
+My most recent Internship has focused on collecting and analyzing phenology data on plants at the UCSB Lagoon, for the Cheadle Center. My work consists of monitoring eight different plots on the Lagoon Island, and assessing all the flowering plants in those plots on how far along they are in their bloom cycle. I collect data weekly, and have created graphs using R of several of the more common native species found there, to compare how blooming differs by year. This work is part of a larger project aimed at determining the feeding habits of native bee species; my work aims to help to determine resource availability for bees over time.
 
 The map below displays the eight different plots where I collect data. Each marker represents a different part of the island/plot where I walk a transect and collect information on the surronding plants' phenology. Plots are either labeled a year or as "unburned". Each year label represents the year in which this plot last had a prescribed burn, and unburned simply means this area never has been burned.
 
