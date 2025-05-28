@@ -1,12 +1,13 @@
 ---
 title: "Phenology Data Collection & Analysis Project"
 format: html
-description: ""
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 ```{r}
-install.packages("leaflet")
-install.packages("leaflet.extras")
 library(leaflet)
 library(leaflet.extras)
 
