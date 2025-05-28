@@ -1,5 +1,12 @@
 ---
-title: "Restoration Master Plan Group Project"
+title: "Restoration Management Plan Group Project"
 format: html
 ---
 
+This mock restoration management plan was part of a group project I worked on for a class called Foundation of Ecosystem Restoration. It is a detailed hypothetical plan for the restoration of the grassland of More Mesa in Santa Barbara, Ca.
+
+<a href="../Restoration%20Management%20Plan.pdf" target="_blank" style="padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none;"> View Full Restoration Management Plan (PDF) </a>
+
+::: {style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;"}
+<img src="../images/res.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/res2.jpeg" style="width: 300px; border-radius: 8px;"/>
+:::

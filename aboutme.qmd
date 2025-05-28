@@ -3,7 +3,7 @@ title: "About Me"
 format: html
 ---
 
-## Photo Gallery
+## 
 
 ::: {style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;"}
 <img src="images/costarica.jpeg" alt="Costa Rica" style="width: 300px; border-radius: 8px;"/> <img src="images/kyak.jpeg" alt="Kayak" style="width: 300px; border-radius: 8px;"/> <img src="images/rock.jpeg" alt="Rock" style="width: 300px; border-radius: 8px;"/> <img src="images/whale.jpeg" alt="Whale" style="width: 300px; border-radius: 8px;"/>

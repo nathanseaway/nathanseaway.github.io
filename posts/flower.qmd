@@ -1,5 +1,9 @@
 ---
 title: "Phenology Data Collection & Analysis Project"
 format: html
+description: ""
 ---
 
+::: {style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;"}
+<img src="../images/lagflo.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo2.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo3.jpeg" style="width: 300px; border-radius: 8px;"/>
+:::
