@@ -4,6 +4,30 @@ format: html
 description: ""
 ---
 
+```{r}
+install.packages("leaflet")
+install.packages("leaflet.extras")
+library(leaflet)
+library(leaflet.extras)
+
+sites <- data.frame(
+  site= c("2012", "2018", "2014", "2016", "2022", "2020", "Unburned 1","Unburned 2"),
+  lat= c(34.410058,34.409189,34.408175,34.408118,34.407834,34.407589, 34.407325, 34.407404),
+  lon=c(-119.849223, -119.848980,-119.848108, -119.848841,-119.849152,-119.848425, -119.849223, -119.846825),
+  stringsAsFactors = FALSE
+)
+
+leaflet(data = sites) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") %>%
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) %>%
+  setView(lng = mean(sites$lon), lat = mean(sites$lat), zoom = 17) %>%
+  addMarkers(
+    lng = ~lon, lat = ~lat,
+    popup = ~paste("Site:", site)
+  ) %>%
+  addResetMapButton()
+```
+
 ::: {style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;"}
 <img src="../images/lagflo.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo2.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo3.jpeg" style="width: 300px; border-radius: 8px;"/>
 :::
