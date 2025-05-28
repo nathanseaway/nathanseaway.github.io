@@ -1,1 +1,26 @@
 /* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@300;400;500&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #2b2b2b;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #1e2d2f;
+}
+.navbar {
+  background-color: #2f3e46 !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #f1f1f1 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  background-color: #cad2c5 !important;
+  color: #2f3e46 !important;
+}

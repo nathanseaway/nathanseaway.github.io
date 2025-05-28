@@ -5,6 +5,8 @@ format: html
 
 This mock restoration management plan was part of a group project I worked on for a class called Foundation of Ecosystem Restoration. It is a detailed hypothetical plan for the restoration of the grassland of More Mesa in Santa Barbara, Ca.
 
+The full report covers the steps necessary to convert this site, dominated by invasive grasses, to a native perennial grassland ecosystem. Includes detailed analysis of site background and surveying, restoration methods, monitoring, budgeting, as well as permitting.
+
 <a href="../Restoration%20Management%20Plan.pdf" target="_blank" style="padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none;"> View Full Restoration Management Plan (PDF) </a>
 
 ::: {style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;"}

@@ -19,9 +19,13 @@ website:
       text: Surfing & Hiking
     - href: resume.qmd
       text: Resume 
+  page-footer:
+    background: dark
+    left: Copyright 2025, Nathan Seaway
+
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 
