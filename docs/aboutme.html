@@ -123,14 +123,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -154,12 +148,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
 <p><img src="images/costarica.jpeg" alt="Costa Rica" style="width: 300px; border-radius: 8px;"> <img src="images/kyak.jpeg" alt="Kayak" style="width: 300px; border-radius: 8px;"> <img src="images/rock.jpeg" alt="Rock" style="width: 300px; border-radius: 8px;"> <img src="images/whale.jpeg" alt="Whale" style="width: 300px; border-radius: 8px;"></p>
 </div>
 <hr>
+<style>
+.image-hover-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+}
+
+.image-hover-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.caption-hover {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  border-radius: 0 0 10px 10px;
+  transition: opacity 0.3s ease;
+}
+
+.image-hover-container:hover .caption-hover {
+  opacity: 1;
+}
+</style>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+<div class="image-hover-container">
+<p><img src="images/costarica.jpeg" alt="Costa Rica"></p>
+<div class="caption-hover">
+<p>A Beach near Puerto Viejo, Costa Rica, I visisted while backpacking there last summer. It was so amazing getting to see such beatiful landscapes and diverse nature; also the best beaches ever! Costa Rica might be my favorite place in the world.</p>
+</div>
+</div>
+<div class="image-hover-container">
+<p><img src="images/kyak.jpeg" alt="Kayaking"></p>
+<div class="caption-hover">
+<p>Here I am stand up paddle boarding with my friend Emma near campus point (even though I was sitting). There were so many brown pelicans, which are also an awesome success story of the Endangered Species Act!</p>
+</div>
+</div>
+<div class="image-hover-container">
+<p><img src="images/whale.jpeg" alt="Whale"></p>
+<div class="caption-hover">
+<p>Here is the tail of a Hump Back Whale I saw while in Juneau, Alaska with my family.</p>
+</div>
+</div>
+<div class="image-hover-container">
+<p><img src="images/rock.jpeg" alt="Rock"></p>
+<div class="caption-hover">
+<p>This is me belaying down a rockface. Moments earlier I had slipped and hit my head on the rock. Ouch. Still a really fun memory though.</p>
+</div>
+</div>
+</div>
 <p>Hi there!</p>
 <p>Here are a few photos I’ve taken from various trips that I think are super cool. The first photo was taken in Puerto Viejo, Costa Rica on a hiking trip, the second paddle boarding in Santa Barbara, the third &amp; fourth rock climbing and whale watching in Alaska.</p>
 <p>A bit more about me:</p>
@@ -169,7 +218,6 @@ ul.task-list li input[type="checkbox"] {
 <p>In my free time, I love to get outside! I enjoy surfing, hiking, swimming, kayaking, backpacking, and biking. Check out the tab on surfing and hiking if you want to learn more.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

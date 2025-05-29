@@ -3,13 +3,75 @@ title: "About Me"
 format: html
 ---
 
-## 
-
-::: {style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;"}
-<img src="images/costarica.jpeg" alt="Costa Rica" style="width: 300px; border-radius: 8px;"/> <img src="images/kyak.jpeg" alt="Kayak" style="width: 300px; border-radius: 8px;"/> <img src="images/rock.jpeg" alt="Rock" style="width: 300px; border-radius: 8px;"/> <img src="images/whale.jpeg" alt="Whale" style="width: 300px; border-radius: 8px;"/>
-:::
-
 ------------------------------------------------------------------------
+
+```{=html}
+<style>
+.image-hover-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+}
+
+.image-hover-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.caption-hover {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  border-radius: 0 0 10px 10px;
+  transition: opacity 0.3s ease;
+}
+
+.image-hover-container:hover .caption-hover {
+  opacity: 1;
+}
+</style>
+```
+
+::::::::::: {style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;"}
+:::: image-hover-container
+<img src="images/costarica.jpeg" alt="Costa Rica"/>
+
+::: caption-hover
+A Beach near Puerto Viejo, Costa Rica, I visisted while backpacking there last summer. It was so amazing getting to see such beatiful landscapes and diverse nature; also the best beaches ever! Costa Rica might be my favorite place in the world.
+:::
+::::
+
+:::: image-hover-container
+<img src="images/kyak.jpeg" alt="Kayaking"/>
+
+::: caption-hover
+Here I am stand up paddle boarding with my friend Emma near campus point (even though I was sitting). There were so many brown pelicans, which are also an awesome success story of the Endangered Species Act!
+:::
+::::
+
+:::: image-hover-container
+<img src="images/whale.jpeg" alt="Whale"/>
+
+::: caption-hover
+Here is the tail of a Hump Back Whale I saw while in Juneau, Alaska with my family.
+:::
+::::
+
+:::: image-hover-container
+<img src="images/rock.jpeg" alt="Rock"/>
+
+::: caption-hover
+This is me belaying down a rockface. Moments earlier I had slipped and hit my head on the rock. Ouch. Still a really fun memory though.
+:::
+::::
+:::::::::::
 
 Hi there!
 
