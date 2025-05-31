@@ -9,7 +9,9 @@ execute:
 
 My most recent Internship has focused on collecting and analyzing phenology data on plants at the UCSB Lagoon, for the Cheadle Center. My work consists of monitoring eight different plots on the Lagoon Island, and assessing all the flowering plants in those plots on how far along they are in their bloom cycle. I collect data weekly, and have created graphs using R of several of the more common native species found there, to compare how blooming differs by year. This work is part of a larger project aimed at determining the feeding habits of native bee species; my work aims to help to determine resource availability for bees over time.
 
-The map below displays the eight different plots where I collect data. Each marker represents a different part of the island/plot where I walk a transect and collect information on the surronding plants' phenology. Plots are either labeled a year or as "unburned". Each year label represents the year in which this plot last had a prescribed burn, and unburned simply means this area never has been burned.
+The map below displays the eight different plots where I collect data. Each marker represents a different part of the island/plot where I walk a transect and collect information on the surrounding plants' phenology. Plots are either labeled a year or as "unburned". Each year label represents the year in which this plot last had a prescribed burn, and unburned simply means this area never has been burned. For example, the point farthest north on the map says 2012. This means a prescribed burn was used on this plot area in that year.
+
+If you visit the site you will notice that points labeled with a year tend to have a much higher species richness and a lot more native plant species than those that are unburned. Additionally, more recently burned plots tend to have a lot more species of wildflowers compared to ones that were burned longer ago.
 
 ```{r}
 library(leaflet)
@@ -33,8 +35,6 @@ leaflet(data = sites) %>%
   addResetMapButton()
 ```
 
-Below are a few of the figures I have created using R to display bloom cycles for different flowering species to compare year to year. Each species in each plot has been given a ranking, 1-5, each week during its bloom cycle to roughly assess how far along it is. 1 represents just beginning to bloom, 3 means peak bloom, and 5 means last flowers still blooming. The graphs below aggregate data across plots to create figures that assess the species as a whole.
+Outside of the field work I am working on creating visualizations of the data I collect using R. My goal is to display bloom cycles for different flowering species to compare year to year. Each species in each plot has been given a ranking, 1-5, each week during its bloom cycle to roughly assess how far along it is. 1 represents just beginning to bloom, 3 means peak bloom, and 5 means last flowers still blooming. The graphs will show aggregated data across plots to allow for visual comparison between years of data.
 
-::: {style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;"}
 <img src="../images/lagflo.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo2.jpeg" style="width: 300px; border-radius: 8px;"/> <img src="../images/lagflo3.jpeg" style="width: 300px; border-radius: 8px;"/>
-:::
