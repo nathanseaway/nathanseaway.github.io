@@ -1,5 +1,14 @@
 ---
-title: "193DS_Midterm"
+title: "Selected Figures and Work from Env S 193DS"
 format: html
 ---
 
+Below are some figures and data visualizations I created for a data science in Environment Studies class (Env S 193DS).
+
+A.
+
+B.
+
+C.
+
+D.
